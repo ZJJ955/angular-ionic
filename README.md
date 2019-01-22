@@ -150,7 +150,9 @@ loader.dismiss() //闭加载框
 
 //图形验证码要导入   
 
-import { BaseuiProvider } from '../../providers/baseui/baseui'
+import { BaseuiProvider } from '../../providers/baseui/baseui
+
+constructor(private sanitizer: DomSanitizer,){}
 
 //ionic3 接口对接  在ts文件写
 
