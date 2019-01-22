@@ -180,8 +180,8 @@ if(this.双向绑定的银行卡名称.length != 16 && this.双向绑定的银�
  
  
  
-管理后台 =>   ng-alain框架 =>https://ng-alain.com/docs/getting-started/zh
-拉代码，上传代码，拉项目操作跟app端的一样
+//管理后台 =>   ng-alain框架 =>https://ng-alain.com/docs/getting-started/zh
+//拉代码，上传代码，拉项目操作跟app端的一样
 
 //运行管理后台
 npm run start
