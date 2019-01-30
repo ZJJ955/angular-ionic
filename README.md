@@ -349,4 +349,18 @@ children: [
       { path: 'gt-version', loadChildren: './gt-version/gt-version.module#GtVersionModule' },
       
 ]
+
+//根据不同的状态显示不同的状态值 =>
+
+{{getStatus(item.type)}}  =>html页面
+
+//  1首圈 2次圈 3付款（支付）4三圈 5首推 6次推 7三推 8购买商品 9圈存 10销售员推荐 11祈福金 12佛友商品返还 13红包返还)
+ 
+getStatus(item) {
+
+    let typeMap = {"1":"首次圈存", "2":"二次圈存","3":"消费", "4":"三次圈存","5":"首次推荐", "6":"二次推荐","7":"三次推荐", "8":"购买商品","9":"圈存", "10":"销售员推荐","11":"祈福金","12":"佛友商品释放", "13":"红包释放"};
+    
+    return typeMap[item];
+    
+}
  
